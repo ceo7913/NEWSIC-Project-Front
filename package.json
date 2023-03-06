@@ -43,7 +43,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://ceo7913.github.io/NEWSIC-Project-Front",
+  "homepage": "http://ceo7913.github.io/NEWSIC-Project-Front/",
   "eslintConfig": {
     "extends": [
       "react-app",

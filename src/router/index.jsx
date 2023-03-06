@@ -13,7 +13,7 @@ import SiteInfo from "./../pages/newsic_is";
 function Router(){
     const routes =[
         {
-            path: 'NEWSIC-Project-Front',
+            path: '/',
             element: <Home/>,
             children:[
                 {

@@ -14,7 +14,7 @@ const SideBar = () => {
   //   }
   // // })
   // const toProject = () => nav("/project")
-  const toHome = () => nav("/NEWSIC-Project-Front")
+  const toHome = () => nav("/")
   const toFund = () => nav("/fund")
   const toNft = () => nav("/nft")
   const toMusic = () => nav("/music")
