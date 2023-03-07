@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NEWSIC-Project-Front/static/css/main.9124574a.css",
-    "main.js": "/NEWSIC-Project-Front/static/js/main.49ea35cd.js",
+    "main.js": "/NEWSIC-Project-Front/static/js/main.1be7a7ca.js",
     "static/js/787.ab0a56f9.chunk.js": "/NEWSIC-Project-Front/static/js/787.ab0a56f9.chunk.js",
     "static/media/sousial.png": "/NEWSIC-Project-Front/static/media/sousial.193e63645e2687933e7e.png",
     "static/media/signUp.png": "/NEWSIC-Project-Front/static/media/signUp.736ee239d6c94718f6f5.png",
@@ -27,11 +27,11 @@
     "static/media/classic.jpg": "/NEWSIC-Project-Front/static/media/classic.1f0620b209f8d09b0113.jpg",
     "index.html": "/NEWSIC-Project-Front/index.html",
     "main.9124574a.css.map": "/NEWSIC-Project-Front/static/css/main.9124574a.css.map",
-    "main.49ea35cd.js.map": "/NEWSIC-Project-Front/static/js/main.49ea35cd.js.map",
+    "main.1be7a7ca.js.map": "/NEWSIC-Project-Front/static/js/main.1be7a7ca.js.map",
     "787.ab0a56f9.chunk.js.map": "/NEWSIC-Project-Front/static/js/787.ab0a56f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9124574a.css",
-    "static/js/main.49ea35cd.js"
+    "static/js/main.1be7a7ca.js"
   ]
 }
