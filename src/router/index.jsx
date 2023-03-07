@@ -13,40 +13,32 @@ import SiteInfo from "./../pages/newsic_is";
 function Router(){
     const routes =[
         {
-            path: '/',
+            path: 'NEWSIC-Project-Front/',
             element: <Home/>,
             children:[
                 {
-                    // 이런식으로 하위 페이지 라우터를 설정할 수 있음
-                    // path:'issueLog',
-                    // element:<></>,
+                    path:'fund',
+                    element:<FundingContainer/>,
                 },
                 {
-                    // path:'about',
-                    // element:<></>,
+                    path:'nft',
+                    element:<NftMarketContainer/>,
+                },
+                      
+                {
+                    path:'music',
+                    element:<MusicContainer/>,
+                },
+                {
+                    path:'siteinfo',
+                    element:<SiteInfo/>,
+                },
+                {
+                    path:'subscription',
+                    element:<SubscriptionContainer/>,
                 },
             ]
             
-        },
-        {
-            path:'fund',
-            element:<FundingContainer/>,
-        },
-        {
-            path:'nft',
-            element:<NftMarketContainer/>,
-        },
-        {
-            path:'music',
-            element:<MusicContainer/>,
-        },
-        {
-            path:'siteinfo',
-            element:<SiteInfo/>,
-        },
-        {
-            path:'subscription',
-            element:<SubscriptionContainer/>,
         },
         // {
         //     path:'Main',
