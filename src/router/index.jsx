@@ -16,29 +16,29 @@ function Router(){
             path: 'NEWSIC-Project-Front/',
             element: <Home/>,
             children:[
-                {
-                    path:'NEWSIC-Project-Front/fund',
-                    element:<FundingContainer/>,
-                },
-                {
-                    path:'NEWSIC-Project-Front/nft',
-                    element:<NftMarketContainer/>,
-                },
-                      
-                {
-                    path:'NEWSIC-Project-Front/music',
-                    element:<MusicContainer/>,
-                },
-                {
-                    path:'NEWSIC-Project-Front/siteinfo',
-                    element:<SiteInfo/>,
-                },
-                {
-                    path:'NEWSIC-Project-Front/subscription',
-                    element:<SubscriptionContainer/>,
-                },
             ]
             
+        },
+        {
+            path:'NEWSIC-Project-Front/fund',
+            element:<FundingContainer/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/nft',
+            element:<NftMarketContainer/>,
+        },
+              
+        {
+            path:'NEWSIC-Project-Front/music',
+            element:<MusicContainer/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/siteinfo',
+            element:<SiteInfo/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/subscription',
+            element:<SubscriptionContainer/>,
         },
         // {
         //     path:'Main',
