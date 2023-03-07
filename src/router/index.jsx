@@ -17,24 +17,24 @@ function Router(){
             element: <Home/>,
             children:[
                 {
-                    path:'fund',
+                    path:'NEWSIC-Project-Front/fund',
                     element:<FundingContainer/>,
                 },
                 {
-                    path:'nft',
+                    path:'NEWSIC-Project-Front/nft',
                     element:<NftMarketContainer/>,
                 },
                       
                 {
-                    path:'music',
+                    path:'NEWSIC-Project-Front/music',
                     element:<MusicContainer/>,
                 },
                 {
-                    path:'siteinfo',
+                    path:'NEWSIC-Project-Front/siteinfo',
                     element:<SiteInfo/>,
                 },
                 {
-                    path:'subscription',
+                    path:'NEWSIC-Project-Front/subscription',
                     element:<SubscriptionContainer/>,
                 },
             ]
