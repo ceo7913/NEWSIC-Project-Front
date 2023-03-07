@@ -8,6 +8,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Classic100, FundMusicTop100, NewSong, NormalMusicTop100, Pop100, Song100, Trot100 } from "../../components";
+import { useNavigate } from "react-router-dom";
 
 // 뮤직 메인페이지
 
@@ -37,6 +38,7 @@ const variantModal = {
 
 const MusicContainer = () => {
   //============================================================20230215 추가 start
+
   const [isOpen, setIsOpen] = useState(false);
   const [selectedGenre, setSelectedGenre] = useState(null);
   const handleGenreClick = (genre) => {

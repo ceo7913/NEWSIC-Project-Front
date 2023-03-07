@@ -1,9 +1,9 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import leeImg from "../../../../public/image/lee.jpg"
+import leeImg from "../../../image/lee.jpg"
 import { useRef } from 'react'
 import { useState } from 'react'
-import FundingDetailModal from '@/components/FundingDetailModal'
+import FundingDetailModal from '../../../components/FundingDetailModal'
 
 const FundingDetail = () => {
   const infoSlideFrameRef =useRef(null);

@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { useDispatch, useSelector } from "react-redux";
-import { useRouter } from "next/router";
-import { marketDetail, marketDetailInfo } from "@/middleware/fetchNft";
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts'
+import { useNavigate } from "react-router-dom";
 // nft 상세 페이지
 const nftData = [
   {
@@ -103,17 +101,11 @@ const NftDetailContainer = () => {
     setSelectedTab(tab);
   };
 
-  const dispatch = useDispatch();
   const block = Array.from({ length: 5 }, () => <div></div>);
-  const router = useRouter();
   const handleClick = (id) => {
     setSelectedDiv(id);
   };
   useEffect(() => {
-    const NFTId = router.query.NFTId;
-    console.log(NFTId, "엔엪티아이디다 임마");
-    dispatch(marketDetail(NFTId));
-    dispatch(marketDetailInfo(NFTId));
   }, []);
   return (
     <div className='nftDetailContainerFrame'>

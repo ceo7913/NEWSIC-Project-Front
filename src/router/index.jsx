@@ -7,7 +7,9 @@ import NftMarketContainer from './../pages/NFTmarket/index';
 import MusicContainer from './../pages/music/index';
 import SubscriptionContainer from './../pages/subscription/index';
 import SiteInfo from "./../pages/newsic_is";
-
+import FundingDetail from "../pages/reward/detail/FundingDetail";
+import NftDetailContainer from "../pages/NFTmarket/detail/NftDetailContainer";
+import MusicDetail from "../pages/music/detail/MusicDetail";
 
 
 function Router(){
@@ -24,13 +26,25 @@ function Router(){
             element:<FundingContainer/>,
         },
         {
+            path:'NEWSIC-Project-Front/fund/detail',
+            element:<FundingDetail/>,
+        },
+        {
             path:'NEWSIC-Project-Front/nft',
             element:<NftMarketContainer/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/nft/detail',
+            element:<NftDetailContainer/>,
         },
               
         {
             path:'NEWSIC-Project-Front/music',
             element:<MusicContainer/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/music/detail',
+            element:<MusicDetail/>,
         },
         {
             path:'NEWSIC-Project-Front/siteinfo',

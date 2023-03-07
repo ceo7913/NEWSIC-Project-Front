@@ -4,6 +4,7 @@ import { faHeart, faPlus } from "@fortawesome/free-solid-svg-icons";
 import ironImg from "../../image/IRON.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const topChartItem = [
   {
@@ -63,12 +64,13 @@ const topChartItem = [
 ];
 
 const NormalMusicTop100 = () => {
-
+  const nav =useNavigate()
+  const toSongDetail = () => nav("detail")
   return (
     <div className="topChartSection">
       <motion.div className="topChartList">
         {topChartItem.map((item) => (
-          <div className="musicTopItemBox">
+          <div className="musicTopItemBox" onClick={toSongDetail}>
             <div className="leftSection">
               <img src={item.img} alt="" className="musicTopItemImg" />
               <div className="musicInfoFrame">

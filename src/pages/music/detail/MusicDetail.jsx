@@ -1,10 +1,10 @@
 // 곡(앨범) 상세페이지
 import React from 'react'
 import {motion} from "framer-motion"
-import SongImag from "../../../../public/image/rabi.jpg"
+import SongImag from "../../../image/rabi.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
-const songDetail = () => {
+const MusicDetail = () => {
   return (
     <motion.div 
         className='songDetailContainer'
@@ -51,4 +51,4 @@ const songDetail = () => {
   )
 }
 
-export default songDetail
+export default MusicDetail;
