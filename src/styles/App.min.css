@@ -5525,8 +5525,8 @@ body {
 .FundingContainerFrame .fundingTopBar .swiperSection {
   box-sizing: border-box;
   flex-shrink: 0;
-  width: 19.195vw;
-  height: 19.195vw;
+  width: 40.573vw;
+  height: 19.375vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -5542,8 +5542,8 @@ body {
 }
 .FundingContainerFrame .fundingTopBar .swiperSection .rewardItemImg {
   flex-shrink: 0;
-  width: 19.195vw;
-  height: 19.195vw;
+  width: 100%;
+  height: 100%;
   display: block;
   overflow: hidden;
   position: relative;
@@ -5557,8 +5557,8 @@ body {
   bottom: 0;
   box-sizing: border-box;
   flex-shrink: 0;
-  width: 12.9vw;
-  height: 10.32vw;
+  width: 14.9vw;
+  height: 12.32vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -5618,6 +5618,7 @@ body {
   gap: 0.516vw;
   border-radius: 2.58vw;
   border: 0.052vw solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
   transition: 0.3s;
 }
 .FundingContainerFrame .fundingTopBar .swiperSection .rewardInfoFrame .buttonFrame .nextButton:hover,
@@ -5674,7 +5675,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #000000;
+  color: white;
   font-size: 1.29vw;
   letter-spacing: 0vw;
   line-height: 1.2;
@@ -5688,7 +5689,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #000000;
+  color: white;
   font-size: 1.032vw;
   letter-spacing: 0vw;
   line-height: 1.2;
@@ -5702,7 +5703,7 @@ body {
   font-weight: 700;
   font-style: normal;
   font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #000000;
+  color: white;
   font-size: 1.032vw;
   letter-spacing: 0vw;
   line-height: 1.2;
