@@ -5,6 +5,7 @@ import image2 from "../../image/chang.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import PageNationFrame from './../../components/PageNationFrame';
+import { useNavigate } from "react-router-dom";
 
 // 펀딩 메인페이지
 const data = [
@@ -88,6 +89,8 @@ const fundingUItemData = [
 
 const FundingContainer = () => {
   // ===========================================================
+  const nav =useNavigate()
+  const toFundDetail = () => nav("detail")
   const [activeIndex, setActiveIndex] = useState(0);
   const handleDragEnd = (event, info) => {
     const { offset, velocity } = info;
@@ -229,7 +232,7 @@ const FundingContainer = () => {
         </div>
         <div className="listFram">
           {fundingUItemData.map((item, index) => (
-            <motion.div className="fundingItem" key={index}>
+            <motion.div className="fundingItem" key={index} onClick={toFundDetail} style={{cursor:"pointer"}}>
               <div className="leftTime">{item.leftTime}</div>
             </motion.div>
           ))}

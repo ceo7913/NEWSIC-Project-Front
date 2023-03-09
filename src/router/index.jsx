@@ -11,56 +11,63 @@ import SignUp from "../pages/sign_up";
 import MyPage from "../pages/mypage";
 import { MyPageCreator } from "../components";
 
+import FundingDetail from "../pages/reward/detail/FundingDetail";
+import NftDetailContainer from "../pages/NFTmarket/detail/NftDetailContainer";
+import MusicDetail from "../pages/music/detail/MusicDetail";
 
 
 function Router(){
     const routes =[
         {
-            path: '/',
+            path: 'NEWSIC-Project-Front/',
             element: <Home/>,
             children:[
-                {
-                    // 이런식으로 하위 페이지 라우터를 설정할 수 있음
-                    // path:'issueLog',
-                    // element:<></>,
-                },
-                {
-                    // path:'about',
-                    // element:<></>,
-                },
             ]
             
         },
         {
-            path:'fund',
+            path:'NEWSIC-Project-Front/fund',
             element:<FundingContainer/>,
         },
         {
-            path:'nft',
+            path:'NEWSIC-Project-Front/fund/detail',
+            element:<FundingDetail/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/nft',
             element:<NftMarketContainer/>,
         },
         {
-            path:'music',
+            path:'NEWSIC-Project-Front/nft/detail',
+            element:<NftDetailContainer/>,
+        },
+              
+        {
+            path:'NEWSIC-Project-Front/music',
             element:<MusicContainer/>,
         },
         {
-            path:'siteinfo',
+            path:'NEWSIC-Project-Front/music/detail',
+            element:<MusicDetail/>,
+        },
+        {
+            path:'NEWSIC-Project-Front/siteinfo',
             element:<SiteInfo/>,
         },
         {
-            path:'subscription',
+            path:'NEWSIC-Project-Front/subscription',
             element:<SubscriptionContainer/>,
         },
         {
-            path:'signup',
+            path:'NEWSIC-Project-Front/signup',
             element:<SignUp/>,
         },
         {
-            path:'mypage',
+            path:'NEWSIC-Project-Front/mypage',
             element:<MyPage/>,
         },
         {
-            path:'creator',
+            path:'NEWSIC-Project-Front/creator',
             element:<MyPageCreator/>,
         },
 
