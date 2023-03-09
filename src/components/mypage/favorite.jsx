@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import PageNationFrame from "../../components/PageNationFrame";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchMyNftList } from "@/middleware/fetchMyPage";
 const nftItem = [
   {
       id:"a",
@@ -247,8 +245,7 @@ const Favorite = () => {
     setIsNftView(!isNftView);
   };
 
-  const heartNftList = useSelector((state) => state.myPageInfo.heart_nft);
-  const heartFundingList = useSelector((state) => state.myPageInfo.heart_funding);
+
 
   const container = useRef(null);
   const ref = useRef(null);
@@ -258,18 +255,6 @@ const Favorite = () => {
     setSelectedItem(item.id);
   };
 
-  useEffect(() => {
-    console.log(heartFundingList[0], "하트펀딩");
-    var hurryarr = [];
-    for (let i = 0; i < heartFundingList.length; i++) {
-      console.log("여기 과연?", new Date(heartFundingList[i].heartFundingList.funding_finish_date).getTime());
-      console.log(new Date(heartFundingList[i].heartFundingList.funding_finish_date).getTime() > new Date().getTime() + 86400000);
-      if (new Date(heartFundingList[i].heartFundingList.funding_finish_date).getTime() > new Date().getTime() + 86400000) {
-        hurryarr.push(heartFundingList[i].heartFundingList);
-      }
-    }
-    setHurryUpList(hurryarr);
-  }, []);
 
   return (
     <div className="secondMyPage" ref={container}>

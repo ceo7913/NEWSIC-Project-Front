@@ -1,6 +1,6 @@
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react"
-import { SuccessLog } from "@/components";
+import { SuccessLog } from "../components";
 
 const SignUp = () => {
   const [isCreator, setIsCreator] = useState(false);

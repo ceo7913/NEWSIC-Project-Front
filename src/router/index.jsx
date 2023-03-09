@@ -7,6 +7,9 @@ import NftMarketContainer from './../pages/NFTmarket/index';
 import MusicContainer from './../pages/music/index';
 import SubscriptionContainer from './../pages/subscription/index';
 import SiteInfo from "./../pages/newsic_is";
+import SignUp from "../pages/sign_up";
+import MyPage from "../pages/mypage";
+import { MyPageCreator } from "../components";
 
 
 
@@ -48,6 +51,20 @@ function Router(){
             path:'subscription',
             element:<SubscriptionContainer/>,
         },
+        {
+            path:'signup',
+            element:<SignUp/>,
+        },
+        {
+            path:'mypage',
+            element:<MyPage/>,
+        },
+        {
+            path:'creator',
+            element:<MyPageCreator/>,
+        },
+
+        
         // {
         //     path:'Main',
         //     element:<MainPage/>,

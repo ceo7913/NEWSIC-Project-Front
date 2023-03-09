@@ -1,10 +1,7 @@
-import useWeb3 from "@/hooks/useWeb3";
 import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
 import PageNationFrame from "../PageNationFrame";
 import Atropos from "atropos/react";
 import "atropos/atropos.css";
-import { useRouter } from "next/router";
 
 const ownNftDate = [
   {
@@ -54,7 +51,6 @@ const ownNftDate = [
   },
 ]
 const My_NFT = () => {
-  const router = useRouter();
   // const myNftList = useSelector((state) => state.myPageInfo.myNftList);
   // useEffect(() => {
   //   console.log(myNftList[0].image, "good");

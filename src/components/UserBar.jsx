@@ -1,7 +1,11 @@
 
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 // 컴포넌트
 const UserBar = ({ handleOpen, handleClick }) => {
+  const nav =useNavigate()
+  const toSignUp = () => nav("/signup")
+  const toMyPage = () => nav("/mypage")
   return (
     <div className="userBarSection">
         <div className="optionSection">
@@ -23,11 +27,16 @@ const UserBar = ({ handleOpen, handleClick }) => {
               color:"rgba(255, 255, 255, 1)"
             }}
             whileTap={{ scale: 0.9 }}
-          
+            onClick={toSignUp}
             >MetaMask Connect</motion.div>
           </div>
         <div className="stateInfoSection" onClick={handleClick}></div>
-        <div className="anotherInfoSection"></div>
+        <div className="anotherInfoSection">
+        <motion.div
+          transition={{ ease:[0.44,0,0.56,1], stiffness: 500, damping: 60 , mass:1, duration:0.3}}
+          whileTap={{ scale: 0.9 }}
+        className='menuItem' onClick={toMyPage}>MY PAGE</motion.div>
+        </div>
     </div>
   );
 };

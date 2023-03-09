@@ -76,11 +76,15 @@ const NormalMusicTop100 = () => {
                 <div className="singerName">{item.singerName}</div>
               </div>
             </div>
-            <div className="rightSection">
-              <div className="takeListButton">
-                <FontAwesomeIcon icon={faPlus} />
-              </div>
-            </div>
+            <div className='rightSection'>
+               <div className='lapTime'>{item.lapTime}</div>
+               <div className='likeButton'>
+                   <FontAwesomeIcon icon={faHeart}/>
+               </div>
+               <div className='takeListButton'>
+                   <FontAwesomeIcon icon={faPlus}/>
+               </div>
+           </div>
           </div>
         ))}
       </motion.div>
