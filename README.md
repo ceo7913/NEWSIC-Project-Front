@@ -32,3 +32,9 @@ NEWSIC(음원NFT 펀딩 플렛폼)
 <img src="https://img.shields.io/badge/AmazonAWS-FF9900?style=for-the-badge&logo=AmazonAWS&logoColor=white">
 <img src="https://img.shields.io/badge/Metamask-E57000?style=for-the-badge&logo=&logoColor=white">
 </span>
+
+<h4>Pages Sample</h4>
+<img src="https://user-images.githubusercontent.com/106497516/225568363-6726343d-f410-4af8-973e-e48de62c7573.png" alt="pages-sample1">
+<img src="https://user-images.githubusercontent.com/106497516/225568713-8026aa57-48f1-42fd-8707-73a2d1ba148e.png" alt="pages-sample2">
+
+
