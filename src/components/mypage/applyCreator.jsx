@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 import { useNavigate } from 'react-router-dom';
 const ApplyCreator = () => {
   const nav =useNavigate()
-  const toCreator = () => nav("/creator")
+  const toCreator = () => nav("/NEWSIC-Project-Front/mypage/creator")
   return(
       <div className="firstMyPage">
         <div className="myPageFirstContainerFrame">
