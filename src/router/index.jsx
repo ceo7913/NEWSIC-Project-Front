@@ -67,7 +67,7 @@ function Router(){
             element:<MyPage/>,
         },
         {
-            path:'NEWSIC-Project-Front/creator',
+            path:'creator',
             element:<MyPageCreator/>,
         },
 
