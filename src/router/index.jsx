@@ -19,55 +19,55 @@ import MusicDetail from "../pages/music/detail/MusicDetail";
 function Router(){
     const routes =[
         {
-            path: 'NEWSIC-Project-Front/',
+            path: 'NEWSIC_Front-Project/',
             element: <Home/>,
             children:[
             ]
             
         },
         {
-            path:'NEWSIC-Project-Front/fund',
+            path:'NEWSIC_Front-Project/fund',
             element:<FundingContainer/>,
         },
         {
-            path:'NEWSIC-Project-Front/fund/detail',
+            path:'NEWSIC_Front-Project/fund/detail',
             element:<FundingDetail/>,
         },
         {
-            path:'NEWSIC-Project-Front/nft',
+            path:'NEWSIC_Front-Project/nft',
             element:<NftMarketContainer/>,
         },
         {
-            path:'NEWSIC-Project-Front/nft/detail',
+            path:'NEWSIC_Front-Project/nft/detail',
             element:<NftDetailContainer/>,
         },
               
         {
-            path:'NEWSIC-Project-Front/music',
+            path:'NEWSIC_Front-Project/music',
             element:<MusicContainer/>,
         },
         {
-            path:'NEWSIC-Project-Front/music/detail',
+            path:'NEWSIC_Front-Project/music/detail',
             element:<MusicDetail/>,
         },
         {
-            path:'NEWSIC-Project-Front/siteinfo',
+            path:'NEWSIC_Front-Project/siteinfo',
             element:<SiteInfo/>,
         },
         {
-            path:'NEWSIC-Project-Front/subscription',
+            path:'NEWSIC_Front-Project/subscription',
             element:<SubscriptionContainer/>,
         },
         {
-            path:'NEWSIC-Project-Front/signup',
+            path:'NEWSIC_Front-Project/signup',
             element:<SignUp/>,
         },
         {
-            path:'NEWSIC-Project-Front/mypage',
+            path:'NEWSIC_Front-Project/mypage',
             element:<MyPage/>,
         },
         {
-            path:'NEWSIC-Project-Front/mypage/creator',
+            path:'NEWSIC_Front-Project/mypage/creator',
             element:<MyPageCreator/>,
         },
 
