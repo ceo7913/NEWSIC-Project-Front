@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 // 컴포넌트
 const UserBar = ({ handleOpen, handleClick }) => {
   const nav =useNavigate()
-  const toSignUp = () => nav("NEWSIC_Front-Project/signup")
-  const toMyPage = () => nav("NEWSIC_Front-Project/mypage")
+  const toSignUp = () => nav("NEWSIC-Project-Front/signup")
+  const toMyPage = () => nav("NEWSIC-Project-Front/mypage")
   return (
     <div className="userBarSection">
         <div className="optionSection">

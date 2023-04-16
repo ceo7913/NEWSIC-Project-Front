@@ -3,7 +3,7 @@
 NEWSIC(음원NFT 펀딩 플렛폼) / 기업협약프로젝트 
  
 ## 배포 링크
-http://ceo7913.github.io/NEWSIC_Front-Project/
+http://ceo7913.github.io/NEWSIC-Project-Front/
 
 ## 프로젝트 원본 저장소 링크
 https://github.com/ceo7913/Business-Agreement-Project-Newsic

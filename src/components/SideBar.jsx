@@ -14,12 +14,12 @@ const SideBar = () => {
   //   }
   // // })
   // const toProject = () => nav("/project")
-  const toHome = () => nav("NEWSIC_Front-Project/")
-  const toFund = () => nav("NEWSIC_Front-Project/fund")
-  const toNft = () => nav("NEWSIC_Front-Project/nft")
-  const toMusic = () => nav("NEWSIC_Front-Project/music")
-  const toSiteInfo = () => nav("NEWSIC_Front-Project/siteinfo")
-  const toSubScription = () => nav("NEWSIC_Front-Project/subscription")
+  const toHome = () => nav("NEWSIC-Project-Front/")
+  const toFund = () => nav("NEWSIC-Project-Front/fund")
+  const toNft = () => nav("NEWSIC-Project-Front/nft")
+  const toMusic = () => nav("NEWSIC-Project-Front/music")
+  const toSiteInfo = () => nav("NEWSIC-Project-Front/siteinfo")
+  const toSubScription = () => nav("NEWSIC-Project-Front/subscription")
   // ----------------------------------
   return (
     <div className="sideBarSection">
