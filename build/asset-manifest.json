@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/NEWSIC-Project-Front/static/css/main.23601364.css",
+    "main.js": "/NEWSIC-Project-Front/static/js/main.c80cdb16.js",
+    "static/js/787.ab0a56f9.chunk.js": "/NEWSIC-Project-Front/static/js/787.ab0a56f9.chunk.js",
+    "static/media/sousial.png": "/NEWSIC-Project-Front/static/media/sousial.193e63645e2687933e7e.png",
+    "static/media/signUp.png": "/NEWSIC-Project-Front/static/media/signUp.736ee239d6c94718f6f5.png",
+    "static/media/404Horse.gif": "/NEWSIC-Project-Front/static/media/404Horse.7610c0c9d4cc6bae6840.gif",
+    "static/media/dddepth-343.jpg": "/NEWSIC-Project-Front/static/media/dddepth-343.463e4522f6531955f3ef.jpg",
+    "static/media/Quin Album Art (3D Render + Lettering).png": "/NEWSIC-Project-Front/static/media/Quin Album Art (3D Render + Lettering).7ae8630540286dab8ac5.png",
+    "static/media/creatorTicket.png": "/NEWSIC-Project-Front/static/media/creatorTicket.3dd67ca71cbc4a5326bf.png",
+    "static/media/BackGround.png": "/NEWSIC-Project-Front/static/media/BackGround.0427526549c017d53f53.png",
+    "static/media/user.jpg": "/NEWSIC-Project-Front/static/media/user.a9d80e3de7e2df901582.jpg",
+    "static/media/coverPageBack2.png": "/NEWSIC-Project-Front/static/media/coverPageBack2.fcf9a39446f1460099bb.png",
+    "static/media/wallpaper3.jpg": "/NEWSIC-Project-Front/static/media/wallpaper3.d6d6449e9390abe6e627.jpg",
+    "static/media/cover.jpg": "/NEWSIC-Project-Front/static/media/cover.32ef02b50220bad72de4.jpg",
+    "static/media/chang.jpg": "/NEWSIC-Project-Front/static/media/chang.9bc4a95d8d037b83bbf1.jpg",
+    "static/media/YOUNHA.jpg": "/NEWSIC-Project-Front/static/media/YOUNHA.24343d40a701261b10eb.jpg",
+    "static/media/park.jpg": "/NEWSIC-Project-Front/static/media/park.463405454bca3f462ee1.jpg",
+    "static/media/SampleImge.jpg": "/NEWSIC-Project-Front/static/media/SampleImge.1e682e2cc997b5f5be4f.jpg",
+    "static/media/pop.jpg": "/NEWSIC-Project-Front/static/media/pop.6e3c664e0712d7832a79.jpg",
+    "static/media/IRON2.jpg": "/NEWSIC-Project-Front/static/media/IRON2.936e08af5d9ce6104522.jpg",
+    "static/media/lee.jpg": "/NEWSIC-Project-Front/static/media/lee.4dc9363b5d06a168cfb8.jpg",
+    "static/media/rabi.jpg": "/NEWSIC-Project-Front/static/media/rabi.3ab3b2621b2a5d1e0b10.jpg",
+    "static/media/trot.jpg": "/NEWSIC-Project-Front/static/media/trot.7a71f6f46a675f44273f.jpg",
+    "static/media/public.jpg": "/NEWSIC-Project-Front/static/media/public.b31f2c81b0b9dace2daa.jpg",
+    "static/media/IRON.jpg": "/NEWSIC-Project-Front/static/media/IRON.507d236f2e5c269addba.jpg",
+    "static/media/classic.jpg": "/NEWSIC-Project-Front/static/media/classic.1f0620b209f8d09b0113.jpg",
+    "index.html": "/NEWSIC-Project-Front/index.html",
+    "main.23601364.css.map": "/NEWSIC-Project-Front/static/css/main.23601364.css.map",
+    "main.c80cdb16.js.map": "/NEWSIC-Project-Front/static/js/main.c80cdb16.js.map",
+    "787.ab0a56f9.chunk.js.map": "/NEWSIC-Project-Front/static/js/787.ab0a56f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23601364.css",
+    "static/js/main.c80cdb16.js"
+  ]
+}
